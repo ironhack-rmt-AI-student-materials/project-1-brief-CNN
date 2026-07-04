@@ -31,9 +31,7 @@ Students will build a Convolutional Neural Network (CNN) model to classify image
    - Visualize the confusion matrix to understand model performance across different classes.
 
 5. **Transfer Learning**
-    - Evaluate the accuracy of your model on a pre-trained models like ImagNet, VGG16, Inception... (pick one an justify your choice)
-        - You may find this [link](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub) helpful.
-        - [This](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) is the Pytorch version.
+    - Evaluate the accuracy of your model on a pre-trained models like VGG16/MobileNetV2/ResNet18... (pick one an justify your choice)
     - Perform transfer learning with your chosen pre-trained models i.e., you will probably try a few and choose the best one.
 
 5. **Code Quality**
@@ -52,22 +50,19 @@ Students will build a Convolutional Neural Network (CNN) model to classify image
    - Include visualizations and diagrams where necessary.
    
  7. **Model deployment**
-     - Model deployment is optional but highly recommended (we'll show you some options tomorrow)
+     - Model deployment is optional but highly recommended (we'll show you some options)
 
 
 ## Submission Details
 
 - Deadline for submission: end of the week or as communicated by your teaching team.
-- Submit the following:
-  1. Public repo with Python code files (`*.py`, `ipynb`) containing the model implementation and training process.
+- Submit a public repo that includes:
+  1. Python code files (`*.py`, `ipynb`) containing the model implementation and training process (include all the files that you consider relevant).
   2. A data folder with 5-10 images to test the deployed model/app if hosted somewhere else other than your laptop (strongly recommended! Not a must have)
   3. A Readme file documenting the approach, results, and analysis.
   4. Any additional files necessary for reproducing the results (e.g., requirements.txt).
-  5. Presentation slides
 
 ## Additional Notes
 
 - Students are encourage to experiment with different architectures, hyper-parameters, and optimization techniques.
-- Provide guidance and resources for troubleshooting common issues during model training and evaluation.
-- Students will discuss their approaches and findings in class during assessment evaluation sessions.
 
